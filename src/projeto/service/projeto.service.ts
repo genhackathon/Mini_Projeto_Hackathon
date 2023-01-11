@@ -1,7 +1,8 @@
 import { HttpException, HttpStatus, Injectable } from "@nestjs/common";
 import { InjectRepository } from "@nestjs/typeorm";
 import { Repository, ILike, DeleteResult } from "typeorm";
-import { Projeto } from "../entities/Projeto.entity";
+import { Projeto } from "../entities/projeto.entity";
+
 
 @Injectable()
 export class ProjetoService {

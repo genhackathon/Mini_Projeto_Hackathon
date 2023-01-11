@@ -1,7 +1,8 @@
 import { HttpException, HttpStatus, Injectable } from "@nestjs/common";
 import { InjectRepository } from "@nestjs/typeorm";
 import { Repository, ILike, DeleteResult } from "typeorm";
-import { GrupoPi } from "../entities/GrupoPi.entity";
+import { GrupoPi } from "../entities/grupoPi.entity";
+
 
 @Injectable()
 export class GrupoPiService {
