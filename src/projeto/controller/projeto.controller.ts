@@ -1,7 +1,7 @@
 import { Body, Controller, Delete, Get, HttpCode, HttpStatus, Param, ParseIntPipe, Post, Put } from "@nestjs/common"
 import { ApiTags } from "@nestjs/swagger"
 import { Projeto } from "../entities/projeto.entity"
-import { ProjetoService } from "../service/Projeto.service"
+import { ProjetoService } from "../service/projeto.service"
 
 
 @ApiTags('Projetos')
